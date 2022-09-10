@@ -4,7 +4,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-Console.WriteLine("Введите трехзначное число");
+Console.WriteLine("Введите целое число");
 string input = Console.ReadLine();
 int number = int.Parse(input);
 
