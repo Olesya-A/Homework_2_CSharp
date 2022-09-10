@@ -11,14 +11,11 @@ if (number > 7 || number < 1)
 {
     Console.WriteLine("Такого дня недели нет");
 }
+else if (number == 6 || number == 7)
+{
+    Console.WriteLine("Этот день является выходным");
+}
 else
 {
-    if (number == 6 || number == 7)
-    {
-        Console.WriteLine("Этот день является выходным");
-    }
-    else
-    {
-        Console.WriteLine("Этот день НЕ является выходным");
-    }
+    Console.WriteLine("Этот день НЕ является выходным");
 }
